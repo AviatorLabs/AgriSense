@@ -10,7 +10,7 @@ export default function Section4() {
       <h2 className="text-sm text-primary font-mono font-bold">
         Illustrative data preview
       </h2>
-      <div className="container flex items-center justify-between">
+      <div className="container flex flex-col gap-y-3 md:items-center md:justify-between md:flex-row">
         <h3 className="text-foreground text-4xl font-sans font-bold">
           Know what matters before
           <br />
@@ -21,7 +21,7 @@ export default function Section4() {
           intelligence AgriSense can organize.
         </p>
       </div>
-      <div className="container grid grid-cols-4 gap-3">
+      <div className="container grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-4">
         <div className="flex flex-col gap-2 p-3 bg-card border-2 border-border rounded-xl shadow-md">
           <div className="flex items-center justify-between">
             <p className="text-sm text-muted-foreground font-mono font-semibold">
