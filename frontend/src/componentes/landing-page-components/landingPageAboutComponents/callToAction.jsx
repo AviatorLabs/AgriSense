@@ -4,7 +4,7 @@ import { GoArrowRight } from "react-icons/go";
 export default function CallToAction() {
   return (
     <div className="w-full bg-primary">
-      <div className="max-w-7xl mx-auto px-3 py-32 grid grid-cols-2 gap-20">
+      <div className="max-w-7xl mx-auto px-3 py-32 grid grid-cols-1 gap-20 md:grid-cols-2">
         <div className="text-primary-foreground flex flex-col gap-y-3">
           <h2 className="text-sm font-mono font-bold">
             Make the next season count
