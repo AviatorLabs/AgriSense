@@ -10,9 +10,9 @@ export default function LandingPageHero() {
   return (
     <section
       id="hero"
-      className="max-w-7xl w-full mx-auto grid grid-cols-2"
+      className="max-w-7xl w-full mx-auto flex flex-col-reverse gap-y-20 md:grid md:grid-cols-2"
     >
-      <div className="flex flex-col mt-36 space-y-6 px-3">
+      <div className="flex flex-col space-y-6 px-3 md:mt-36">
         <div className="w-63 text-sm text-foreground font-mono font-bold bg-secondary px-4 py-2 flex items-center gap-x-3 rounded-full">
           <div className="w-2 h-2 rounded-full bg-primary"></div>
           Built for Ethiopia agriculture
@@ -64,7 +64,7 @@ export default function LandingPageHero() {
           alt="hero image"
           className="w-132 h-103 object-cover rounded-xl"
         />
-        <div className="absolute top-10 -left-10 w-54 h-38 flex flex-col gap-y-2 p-4 bg-card border-2 border-border shadow-md rounded-xl">
+        <div className="absolute -top-10 left-5 w-54 h-38 flex flex-col gap-y-2 p-4 bg-card border-2 border-border shadow-md rounded-xl md:top-10 md:-left-10">
           <div className="container flex items-center justify-between">
             <span className="bg-secondary p-2 rounded-xl">
               <WiDayCloudy className="w-4 h-4 fill-primary-accent" />{" "}
@@ -83,7 +83,7 @@ export default function LandingPageHero() {
             Light rain expexted Thu
           </p>
         </div>
-        <div className="absolute top-80 -right-1 w-64 h-31 flex flex-col gap-y-1 p-4 bg-card border-2 border-border shadow-md rounded-xl">
+        <div className="absolute top-80 right-5 w-64 h-31 flex flex-col gap-y-1 p-4 bg-card border-2 border-border shadow-md rounded-xl md:-right-1">
           <p className="text-xs text-muted-foreground font-mono">
             Soil fertility
           </p>
