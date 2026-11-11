@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="w-full bg-secondary-foreground">
       <div className="max-w-7xl mx-auto px-3 flex flex-col gap-y-2">
         <div className="container py-32 grid grid-cols-1 gap-10 md:gap-36 md:grid-cols-[2fr_1fr_2fr]">
-          <div className="flex flex-col gap-y-3">
+          <div className="flex flex-col items-center gap-y-3 md:items-start">
             <img src="" alt="logo" />
             <p className="text-sm text-background font-mono">
               Agricultural intelligence for confident, resilient farming across
