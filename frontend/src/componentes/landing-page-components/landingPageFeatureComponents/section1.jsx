@@ -20,8 +20,8 @@ export default function Section1() {
             communities and agricultural partners.
           </p>
         </div>
-        <div className="container grid grid-cols-1 gap-3 md:grid-cols-3">
-          <div className="flex flex-col gap-y-3 px-5 py-4 bg-card rounded-xl shadow-md">
+        <div className="container grid grid-cols-1 gap-3 justify-items-center md:grid-cols-2 lg:grid-cols-3">
+          <div className="w-98 h-29 flex flex-col gap-y-3 px-5 py-4 bg-card rounded-xl shadow-md">
             <h3 className="text-foreground text-3xl font-sans font-bold">
               1 View
             </h3>
@@ -29,7 +29,7 @@ export default function Section1() {
                 of your land, crops, climate, and market signals
             </p>
           </div>
-          <div className="flex flex-col gap-y-3 px-5 py-4 bg-card rounded-xl shadow-md">
+          <div className="w-98 h-29 flex flex-col gap-y-3 px-5 py-4 bg-card rounded-xl shadow-md">
             <h3 className="text-foreground text-3xl font-sans font-bold">
               5 steps
             </h3>
@@ -37,7 +37,7 @@ export default function Section1() {
                 from farm registration to harvest learning
             </p>
           </div>
-          <div className="flex flex-col gap-y-3 px-5 py-4 bg-card rounded-xl shadow-md">
+          <div className="w-98 h-29 flex flex-col gap-y-3 px-5 py-4 bg-card rounded-xl shadow-md">
             <h3 className="text-foreground text-3xl font-sans font-bold">
               Seasonal
             </h3>

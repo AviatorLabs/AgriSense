@@ -20,7 +20,7 @@ export default function Section2() {
         From soil preparation to sale day, AgriSense turns scattered signals
         into practical farm action.
       </p>
-      <div className="container grid grid-cols-3 gap-3">
+      <div className="grid grid-cols-1 gap-6 justify-items-center p-3 md:grid-cols-2 lg:grid-cols-3 ">
         <article className="w-98 h-50 flex flex-col gap-y-3 bg-card p-6 shadow-md rounded-xl">
           <span className="w-10 h-10 flex items-center justify-center bg-secondary p-2 rounded-xl">
             <PiPlantFill className="w-4 h-4 fill-primary-accent" />{" "}
