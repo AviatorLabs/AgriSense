@@ -9,8 +9,8 @@ import { MdOutlineMailOutline } from "react-icons/md";
 export default function Footer() {
   return (
     <footer className="w-full bg-secondary-foreground">
-      <div className="max-w-7xl mx-auto px-3 flex flex-col gap-y-5">
-        <div className="container py-32 grid grid-cols-[2fr_1fr_2fr] gap-36">
+      <div className="max-w-7xl mx-auto px-3 flex flex-col gap-y-2">
+        <div className="container py-32 grid grid-cols-1 gap-10 md:gap-36 md:grid-cols-[2fr_1fr_2fr]">
           <div className="flex flex-col gap-y-3">
             <img src="" alt="logo" />
             <p className="text-sm text-background font-mono">
@@ -18,11 +18,11 @@ export default function Footer() {
               Ethiopia.
             </p>
           </div>
-          <div className="flex flex-col gap-y-3">
+          <div className="flex flex-col items-center gap-y-3 md:items-start">
             <p className="text-sm text-background font-sans font-semibold">
               Explore
             </p>
-            <ul className="flex flex-col gap-2 text-sm text-background">
+            <ul className="flex flex-col items-center gap-2 text-sm text-background md:items-start">
               <li>
                 <a href="">About</a>
               </li>
@@ -37,7 +37,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col gap-y-3">
+          <div className="flex flex-col items-center gap-y-3 md:items-start">
             <p className="text-sm text-background font-sans font-semibold">
               Stay connected
             </p>
@@ -69,14 +69,14 @@ export default function Footer() {
             </address>
           </div>
         </div>
-      <div className="container flex items-center justify-between p-6 border-t-2 border-primary">
-        <p className="text-xs text-background font-mono">
-          © 2026 AgriSense. Built for better farm decisions.
-        </p>
-        <a href="" className="text-xs text-background font-mono">
-          Privacy Policy
-        </a>
-      </div>
+        <div className="container flex items-center justify-between p-6 border-t-2 border-primary">
+          <p className="text-xs text-background font-mono">
+            © 2026 AgriSense. Built for better farm decisions.
+          </p>
+          <a href="" className="text-xs text-background font-mono">
+            Privacy Policy
+          </a>
+        </div>
       </div>
     </footer>
   );
