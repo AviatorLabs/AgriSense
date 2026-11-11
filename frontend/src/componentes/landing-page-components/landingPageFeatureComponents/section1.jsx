@@ -7,7 +7,7 @@ export default function Section1() {
         <h2 className="text-sm text-primary font-mono font-bold">
           INTELLIGENCE FOR EVERY SEASON
         </h2>
-        <div className="grid grid-cols-2 justify-center">
+        <div className="grid grid-cols-1 gap-5 justify-center md:grid-cols-2">
           <h3 className="text-foreground text-3xl font-sans font-bold">
             A trusted farming partner,
             <br />
@@ -20,7 +20,7 @@ export default function Section1() {
             communities and agricultural partners.
           </p>
         </div>
-        <div className="container grid grid-cols-3 gap-3">
+        <div className="container grid grid-cols-1 gap-3 md:grid-cols-3">
           <div className="flex flex-col gap-y-3 px-5 py-4 bg-card rounded-xl shadow-md">
             <h3 className="text-foreground text-3xl font-sans font-bold">
               1 View
