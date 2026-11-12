@@ -1,4 +1,3 @@
-import React from 'react';
 import { TiWeatherDownpour } from 'react-icons/ti';
 import { PiStack } from 'react-icons/pi';
 import { HiOutlineBadgeCheck } from 'react-icons/hi';

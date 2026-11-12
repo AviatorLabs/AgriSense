@@ -1,4 +1,3 @@
-import React from 'react';
 import { GoArrowRight } from 'react-icons/go';
 
 export default function Section3() {

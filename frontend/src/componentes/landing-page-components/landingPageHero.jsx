@@ -1,4 +1,3 @@
-import React from 'react';
 import { CiPlay1 } from 'react-icons/ci';
 import { GoArrowRight } from 'react-icons/go';
 import { FaRegCheckCircle } from 'react-icons/fa';

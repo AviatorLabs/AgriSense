@@ -1,4 +1,3 @@
-import React from 'react';
 import NavBar from '../componentes/navBar';
 import LandingPageHero from '../componentes/landing-page-components/landingPageHero';
 import LandingPageAbout from '../componentes/landing-page-components/landingPageAbout';

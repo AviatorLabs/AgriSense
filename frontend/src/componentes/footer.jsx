@@ -1,4 +1,3 @@
-import React from 'react';
 import { SlSocialLinkedin, SlSocialInstagram, SlSocialFacebook } from 'react-icons/sl';
 import { MdOutlineMailOutline } from 'react-icons/md';
 

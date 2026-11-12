@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { GoArrowRight } from 'react-icons/go';
 import { IoMenu, IoClose } from 'react-icons/io5';
 

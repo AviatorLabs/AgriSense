@@ -1,4 +1,3 @@
-import React from 'react';
 import { PiPlantFill } from 'react-icons/pi';
 import { WiDayCloudy } from 'react-icons/wi';
 import { MdOutlineRemoveRedEye } from 'react-icons/md';
