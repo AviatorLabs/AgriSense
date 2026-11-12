@@ -31,7 +31,7 @@ export default function NavBar() {
                 href="#features"
                 className="hover:text-on-surface hover:underline hover:-mt-1 decoration-primary"
               >
-                features
+                Features
               </a>
             </li>
             <li>
@@ -82,7 +82,7 @@ export default function NavBar() {
               href="#features"
               className="hover:text-on-surface hover:underline hover:-mt-1 decoration-primary"
             >
-              features
+              Features
             </a>
           </li>
           <li>
