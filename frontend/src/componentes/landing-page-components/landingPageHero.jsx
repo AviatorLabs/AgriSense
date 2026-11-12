@@ -15,7 +15,7 @@ export default function LandingPageHero() {
       <div className="flex flex-col space-y-6 px-3 md:mt-36">
         <div className="w-63 text-sm text-foreground font-mono font-bold bg-secondary px-4 py-2 flex items-center gap-x-3 rounded-full">
           <div className="w-2 h-2 rounded-full bg-primary"></div>
-          Built for Ethiopia agriculture
+          Built for Ethiopia's agriculture
         </div>
         <h1 className="text-6xl text-secondary-foreground font-bold">
           Grow Smart.
@@ -23,8 +23,8 @@ export default function LandingPageHero() {
           Harvest Better
         </h1>
         <p className="text-md text-muted-foreground">
-          AgreSense turns local weather, soil signals, crope cycle, and market
-          movment into clear next step-so every farmer decision is more
+          AgriSense turns local weather, soil signals, crop cycle, and market
+          movement into clear next step-so every farmer decision is more
           confident, productive, and profitable.
         </p>
         <div className="flex items-center space-x-3">
@@ -70,7 +70,7 @@ export default function LandingPageHero() {
               <WiDayCloudy className="w-4 h-4 fill-primary-accent" />{" "}
             </span>
             <p className="text-xs text-primary-accent font-mono font-semibold">
-              Live
+              Live (Sample Data)
             </p>
           </div>
           <p className="text-xs text-muted-foreground font-mono font-medium">
