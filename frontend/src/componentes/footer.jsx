@@ -8,7 +8,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-secondary-foreground">
+    <footer id="contacts" className="w-full bg-secondary-foreground">
       <div className="max-w-7xl mx-auto px-3 flex flex-col gap-y-2">
         <div className="container py-32 grid grid-cols-1 gap-10 md:gap-36 md:grid-cols-[2fr_1fr_2fr]">
           <div className="flex flex-col items-center gap-y-3 md:items-start">
@@ -24,16 +24,16 @@ export default function Footer() {
             </p>
             <ul className="flex flex-col items-center gap-2 text-sm text-background md:items-start">
               <li>
-                <a href="">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="">Features</a>
+                <a href="#fesrures">Features</a>
               </li>
               <li>
-                <a href="">Get Started</a>
+                <a href="#get_started">Get Started</a>
               </li>
               <li>
-                <a href="">Contacts</a>
+                <a href="#contacts">Contacts</a>
               </li>
             </ul>
           </div>

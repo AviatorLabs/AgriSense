@@ -44,7 +44,7 @@ export default function NavBar() {
             </li>
             <li>
               <a
-                href="#contact"
+                href="#contacts"
                 className="hover:text-on-surface hover:underline hover:-mt-1 decoration-primary"
               >
                 Contact
@@ -95,7 +95,7 @@ export default function NavBar() {
           </li>
           <li>
             <a
-              href="#contact"
+              href="#contacts"
               className="hover:text-on-surface hover:underline hover:-mt-1 decoration-primary"
             >
               Contact
