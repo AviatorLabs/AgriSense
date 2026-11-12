@@ -1,6 +1,6 @@
-import React from "react";
-import Section3 from "./landingPageAboutComponents/section3";
-import Section4 from "./landingPageAboutComponents/section4";
+import React from 'react';
+import Section3 from './landingPageAboutComponents/section3';
+import Section4 from './landingPageAboutComponents/section4';
 
 export default function LandingPageAbout() {
   return (

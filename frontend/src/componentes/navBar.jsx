@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { GoArrowRight } from "react-icons/go";
-import { IoMenu, IoClose } from "react-icons/io5";
+import React, { useState } from 'react';
+import { GoArrowRight } from 'react-icons/go';
+import { IoMenu, IoClose } from 'react-icons/io5';
 
 export default function NavBar() {
   const [istoggeld, setIstoggeled] = useState(false);
@@ -15,7 +15,7 @@ export default function NavBar() {
         </a>
 
         <div
-          className={`w-75 ${istoggeld ? "flex" : "hidden"} absolute right-1 top-13 flex-col gap-y-3 p-3 bg-background rounded-xl shadow-md border border-border md:hidden`}
+          className={`w-75 ${istoggeld ? 'flex' : 'hidden'} absolute right-1 top-13 flex-col gap-y-3 p-3 bg-background rounded-xl shadow-md border border-border md:hidden`}
         >
           <ul className="flex flex-col gap-y-2 text-secondary-foreground font-mono font-bold text-sm">
             <li>
@@ -62,7 +62,7 @@ export default function NavBar() {
               href="#get-started"
               className="text-primary-foreground text-sm bg-primary font-mono font-semibold px-3 py-2 rounded-xl hover:text-on-surface"
             >
-              Get Started{" "}
+              Get Started{' '}
               <GoArrowRight className=" w-5 h-5 inline-block ml-1 stroke-primary-foreground" />
             </a>
           </div>
@@ -113,7 +113,7 @@ export default function NavBar() {
             href="#get-started"
             className="text-primary-foreground text-sm bg-primary font-mono font-semibold px-3 py-2 rounded-xl hover:text-on-surface"
           >
-            Get Started{" "}
+            Get Started{' '}
             <GoArrowRight className=" w-5 h-5 inline-block ml-1 stroke-primary-foreground" />
           </a>
         </div>

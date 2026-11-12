@@ -1,13 +1,12 @@
-import React from 'react'
-import NavBar from '../componentes/navBar'
-import LandingPageHero from '../componentes/landing-page-components/landingPageHero'
-import LandingPageAbout from '../componentes/landing-page-components/landingPageAbout'
-import Footer from '../componentes/footer'
-import LandingPageFeature from '../componentes/landing-page-components/landingPageFeature'
-import CallToAction from '../componentes/callToAction'
+import React from 'react';
+import NavBar from '../componentes/navBar';
+import LandingPageHero from '../componentes/landing-page-components/landingPageHero';
+import LandingPageAbout from '../componentes/landing-page-components/landingPageAbout';
+import Footer from '../componentes/footer';
+import LandingPageFeature from '../componentes/landing-page-components/landingPageFeature';
+import CallToAction from '../componentes/callToAction';
 
 export default function LandingPage() {
-    
   return (
     <>
       <NavBar />
@@ -19,6 +18,5 @@ export default function LandingPage() {
       <CallToAction />
       <Footer />
     </>
-  )
+  );
 }
-
