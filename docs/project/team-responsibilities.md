@@ -1,6 +1,6 @@
 # AviatorLabs Team Responsibilities
 
-**Status:** Initial responsibility framework; individual feature assignments remain open.
+**Status:** Team-confirmed collaboration framework; individual feature assignments remain open.
 
 ## 1. Team
 
@@ -14,13 +14,14 @@
 ## 2. Team-wide responsibilities
 
 Every member is expected to:
-- Understand the product goals and the feature they are working on.
+- Understand the product goals, agreed architecture, and feature they are working on.
 - Participate in planning, implementation, testing, and review.
 - Communicate progress and blockers early.
 - Use GitHub issues, branches, and pull requests.
 - Review teammates' work and provide constructive feedback.
 - Document important decisions and setup discoveries.
-- Continue learning React, Next.js, JavaScript, MongoDB, and the team's tools.
+- Continue learning JavaScript, React + Vite, Node.js + Express.js, MongoDB/Mongoose, and the team's tools.
+- Follow the agreed quality standards, including ESLint, Prettier, and relevant tests.
 
 ## 3. Team Lead and Coordinator
 
@@ -37,21 +38,22 @@ The Team Lead should not become the only person who understands the architecture
 
 ## 4. Feature-based ownership
 
-Permanent frontend/backend specialization is not required. Assign work by feature or vertical slice so members gain experience across the stack.
+Permanent frontend-only or backend-only specialization is not required. Assign work by feature or vertical slice so members gain experience across the stack.
 
 For example, a farm-management feature may involve:
 - UI and interaction design.
-- React/Next.js implementation.
-- Server-side validation and business logic.
+- React implementation.
+- Express route/controller and server-side business logic.
 - Mongoose model and database operations.
-- Tests and documentation.
+- Validation, tests, and documentation.
 
-One member may coordinate a feature while others contribute or pair on unfamiliar parts.
+One member may coordinate a feature while others contribute or pair on unfamiliar parts. Work should be split into clear tasks when parallel contributions are practical.
 
 ## 5. Supporting responsibilities
 
 As the project develops, the team may rotate or assign supporting responsibilities:
 - UI/UX consistency and accessibility.
+- API contract consistency.
 - Database schema and data integrity.
 - GitHub issue/PR hygiene.
 - Testing and quality checks.
