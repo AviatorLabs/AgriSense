@@ -1,10 +1,5 @@
-import React from "react";
-import {
-  SlSocialLinkedin,
-  SlSocialInstagram,
-  SlSocialFacebook,
-} from "react-icons/sl";
-import { MdOutlineMailOutline } from "react-icons/md";
+import { SlSocialLinkedin, SlSocialInstagram, SlSocialFacebook } from 'react-icons/sl';
+import { MdOutlineMailOutline } from 'react-icons/md';
 
 export default function Footer() {
   return (
@@ -14,14 +9,11 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-y-3 md:items-start">
             <img src="" alt="logo" />
             <p className="text-sm text-background font-mono">
-              Agricultural intelligence for confident, resilient farming across
-              Ethiopia.
+              Agricultural intelligence for confident, resilient farming across Ethiopia.
             </p>
           </div>
           <div className="flex flex-col items-center gap-y-3 md:items-start">
-            <p className="text-sm text-background font-sans font-semibold">
-              Explore
-            </p>
+            <p className="text-sm text-background font-sans font-semibold">Explore</p>
             <ul className="flex flex-col items-center gap-2 text-sm text-background md:items-start">
               <li>
                 <a href="#about">About</a>
@@ -38,31 +30,26 @@ export default function Footer() {
             </ul>
           </div>
           <div className="flex flex-col items-center gap-y-3 md:items-start">
-            <p className="text-sm text-background font-sans font-semibold">
-              Stay connected
-            </p>
+            <p className="text-sm text-background font-sans font-semibold">Stay connected</p>
             <address className="flex flex-col gap-y-3">
               <div className="flex items-center gap-x-3">
                 <a href="">
                   <span className="w-10 h-10 flex items-center justify-center bg-primary p-2 rounded-xl">
-                    <SlSocialLinkedin className="w-4 h-4 fill-background" />{" "}
+                    <SlSocialLinkedin className="w-4 h-4 fill-background" />{' '}
                   </span>
                 </a>
                 <a href="">
                   <span className="w-10 h-10 flex items-center justify-center bg-primary p-2 rounded-xl">
-                    <SlSocialFacebook className="w-4 h-4 fill-background" />{" "}
+                    <SlSocialFacebook className="w-4 h-4 fill-background" />{' '}
                   </span>
                 </a>
                 <a href="">
                   <span className="w-10 h-10 flex items-center justify-center bg-primary p-2 rounded-xl">
-                    <SlSocialInstagram className="w-4 h-4 fill-background" />{" "}
+                    <SlSocialInstagram className="w-4 h-4 fill-background" />{' '}
                   </span>
                 </a>
               </div>
-              <a
-                href=""
-                className="text-background text-sm font-mono flex items-center gap-2"
-              >
+              <a href="" className="text-background text-sm font-mono flex items-center gap-2">
                 <MdOutlineMailOutline />
                 hello@agrisense.et
               </a>

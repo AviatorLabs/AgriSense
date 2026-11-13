@@ -1,6 +1,5 @@
-import React from "react";
-import Section1 from "./landingPageFeatureComponents/section1";
-import Section2 from "./landingPageFeatureComponents/section2";
+import Section1 from './landingPageFeatureComponents/section1';
+import Section2 from './landingPageFeatureComponents/section2';
 
 export default function LandingPageFeature() {
   return (
