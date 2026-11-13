@@ -1,13 +1,13 @@
 # AgriSense Git and GitHub Workflow
 
-**Status:** Team workflow proposal for review  
+**Status:** Team-confirmed workflow baseline  
 **Repository:** AviatorLabs/AgriSense
 
 ## 1. Source of truth
 
 - GitHub repository: source of truth for code and version history.
 - GitHub Issues: source of truth for tasks, bugs, and feature requests.
-- GitHub Projects: source of truth for task status and milestone tracking once configured.
+- GitHub Projects: source of truth for task status and milestone tracking.
 - Pull requests: source of truth for code review and integration discussion.
 - Telegram: daily communication and quick coordination, not a replacement for recording technical decisions in GitHub.
 
@@ -18,27 +18,29 @@
 - `fix/<short-description>`: bug fixes.
 - `docs/<short-description>`: documentation changes.
 - `refactor/<short-description>`: behavior-preserving code improvements.
+- `chore/<short-description>`: tooling and maintenance changes.
 
 Examples:
 - `feature/farm-management`
 - `fix/login-validation`
 - `docs/api-setup`
+- `chore/backend-initialization`
 
-Do not commit directly to `main`. Create a branch for each task and keep branches focused.
+Do not commit directly to `main`. Create a focused branch for each issue or closely related task.
 
 ## 3. Typical workflow
 
-1. Select an issue that is ready to work on.
-2. Confirm its acceptance criteria and dependencies.
+1. Select an issue that is Ready.
+2. Confirm its acceptance criteria, dependencies, and scope.
 3. Create a branch from the latest `main`.
 4. Implement the smallest complete change that satisfies the issue.
 5. Run relevant checks locally.
 6. Commit with a clear message.
 7. Push the branch and open a pull request against `main`.
-8. Link the related issue in the PR description (for example, `Closes #12`).
+8. Link the related issue in the PR description (for example, `Closes #15`).
 9. Request at least one teammate review.
 10. Address review feedback and confirm checks pass.
-11. Merge only when the PR is approved and ready.
+11. Merge only when the PR is approved, checks pass, and it is ready.
 
 ## 4. Commit messages
 
@@ -84,6 +86,8 @@ A PR should:
 - Avoid unrelated formatting or refactoring.
 - Be small enough for teammates to review.
 
+For cross-stack features, describe the API/UI integration boundary and any assumptions or contract changes.
+
 ## 7. Review expectations
 
 Reviewers should check correctness, readability, maintainability, security, validation, responsive behavior where relevant, and whether acceptance criteria are satisfied.
@@ -92,13 +96,13 @@ Reviews are collaborative. Explain requested changes and ask questions rather th
 
 ## 8. Project board workflow
 
-Recommended statuses:
+Statuses:
 `Backlog → Ready → In Progress → In Review → Done`
 
 Recommended fields:
 - Priority: Critical, High, Medium, Low.
 - Milestone: M0–M9.
-- Area: Frontend, Backend, Database, Testing, Documentation.
+- Area: Frontend, Backend, Database, Testing, Documentation, DevOps.
 - Size: Small, Medium, Large.
 
 Only move work to Done after review and integration.
@@ -106,8 +110,9 @@ Only move work to Done after review and integration.
 ## 9. Safety and collaboration
 
 - Never commit passwords, API keys, database credentials, or private configuration.
-- Keep local secrets in environment files excluded from Git.
+- Keep local secrets in environment files excluded from Git; commit placeholder-only `.env.example` files where useful.
 - Do not force-push shared branches without coordination.
 - Pull/rebase from the latest base branch before opening or updating a PR.
 - Communicate blockers early.
 - Record important architecture decisions in repository documentation or issues.
+- For changes that span frontend and backend, agree on API contracts and dependencies before parallel implementation.
