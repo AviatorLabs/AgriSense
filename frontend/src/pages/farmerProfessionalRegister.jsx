@@ -1,4 +1,3 @@
-import React from 'react';
 import { LuSun } from 'react-icons/lu';
 import SecondaryLogo from '../assets/AgriSenseSecondaryLogo.png';
 import { TbWaveSawTool } from 'react-icons/tb';

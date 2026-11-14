@@ -1,4 +1,3 @@
-import React from 'react';
 import { AiOutlineExclamationCircle } from 'react-icons/ai';
 
 export default function Error({ message }) {
