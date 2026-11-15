@@ -32,3 +32,11 @@
   --background-image-login-landscape: url('./assets/agrisense-login-landscape.png');
   --background-image-registration-landscape: url('./assets/agrisense-registration-landscape.png');
 }
+
+@utility bg-login-overlay {
+  background-image:
+    linear-gradient(rgba(32, 92, 56, 0.8), rgba(32, 92, 56, 0.8)),
+    var(--background-image-registration-landscape);
+  background-size: cover;
+  background-position: center;
+}
