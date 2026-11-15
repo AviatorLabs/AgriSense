@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import landscape from '../assets/agrisense-login-landscape.png';
 import { FiSun, FiMail, FiLock, FiEye } from 'react-icons/fi';
