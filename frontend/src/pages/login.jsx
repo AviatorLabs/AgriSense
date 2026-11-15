@@ -70,7 +70,7 @@ function Login() {
                             
                         </div>
                         <div className="relative">
-                            <FiLock className="absolute left-4 top-1/2 -translate-y-1/2  text-grey-500 text-lg" />
+                            <FiLock className="absolute left-4 top-1/2 -translate-y-1/2  text-gray-500 text-lg" />
                             <input className="w-full pl-11 pr-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-900 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:outline-none" type={showPassword ? "text" : "password"} id="password" placeholder="Enter your password" required />
                             <FiEye className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 text-lg cursor-pointer" onClick={() => setShowPassword(!showPassword)} />
 
