@@ -102,9 +102,9 @@ export default function FarmerProfessionalRegister() {
                     <FiPhone className="w-5 h-5 stroke-muted-foreground/70 mr-3 shrink-0" />
                     <input
                       id="phoneNumber"
-                      type="tell"
+                      type="tel"
                       name="phoneNumber"
-                      placeholder="e.g. Aster Bekele"
+                      placeholder="e.g. +251-90-123-4567"
                       className="w-full bg-transparent text-muted-foreground placeholder-muted-foreground/70 placeholder:font-mono text-sm focus:outline-none"
                     />
                   </div>
@@ -126,7 +126,7 @@ export default function FarmerProfessionalRegister() {
                       id="email"
                       type="email"
                       name="email"
-                      placeholder="e.g. Aster Bekele"
+                      placeholder="e.g. aster@example.com"
                       className="w-full bg-transparent text-muted-foreground placeholder-muted-foreground/70 placeholder:font-mono text-sm focus:outline-none"
                     />
                   </div>
@@ -274,7 +274,7 @@ export default function FarmerProfessionalRegister() {
                 <div className="h-1 bg-border rounded-full"></div>
               </div>
               <a
-                href="#"
+                href="#" // Remember to put a valid login link herre
                 className="text-primary text-sm text-center font-bold font-mono px-4 py-3 bg-card border border-border rounded-xl"
               >
                 Log in to your account
