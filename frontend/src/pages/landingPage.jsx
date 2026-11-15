@@ -1,9 +1,9 @@
-import NavBar from '../componentes/navBar';
-import LandingPageHero from '../componentes/landing-page-components/landingPageHero';
-import LandingPageAbout from '../componentes/landing-page-components/landingPageAbout';
-import Footer from '../componentes/footer';
-import LandingPageFeature from '../componentes/landing-page-components/landingPageFeature';
-import CallToAction from '../componentes/callToAction';
+import NavBar from '../components/navBar';
+import LandingPageHero from '../components/landing-page-components/landingPageHero';
+import LandingPageAbout from '../components/landing-page-components/landingPageAbout';
+import Footer from '../components/footer';
+import LandingPageFeature from '../components/landing-page-components/landingPageFeature';
+import CallToAction from '../components/callToAction';
 
 export default function LandingPage() {
   return (
