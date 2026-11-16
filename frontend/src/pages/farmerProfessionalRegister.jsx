@@ -12,7 +12,7 @@ import Error from '../components/error';
 export default function FarmerProfessionalRegister() {
   return (
     <div className="grid grid-cols-1 bg-primary-foreground h-285 lg:grid-cols-[1fr_2fr]">
-      <section className="bg-login-overlay hidden flex-col justify-center gap-y-3 p-14 relative lg:flex">
+      <section className="bg-register-overlay hidden flex-col justify-center gap-y-3 p-14 relative lg:flex">
         {/* top illstration */}
         <div className="w-30 h-30 absolute top-2 left-5 border-accent/30 border-2 rounded-full">
           <div className="w-10 h-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-accent/30 rounded-full"></div>
