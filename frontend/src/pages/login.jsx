@@ -1,12 +1,10 @@
 import { LuSun } from 'react-icons/lu';
 import SecondaryLogo from '../assets/AgriSenseSecondaryLogo.png';
 import { TbWaveSawTool } from 'react-icons/tb';
-import { IoPersonOutline } from 'react-icons/io5';
-import { FiPhone } from 'react-icons/fi';
 import { MdOutlineEmail, MdOutlineShield } from 'react-icons/md';
-import { BiLockAlt, BiLock } from 'react-icons/bi';
+import { BiLockAlt } from 'react-icons/bi';
 import { LuEye } from 'react-icons/lu';
-import { FaRegCircleCheck, FaArrowRight } from 'react-icons/fa6';
+import { FaArrowRight } from 'react-icons/fa6';
 import Error from '../components/error';
 
 function Login() {
