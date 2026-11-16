@@ -27,7 +27,7 @@ export default function LandingPageHero() {
         </p>
         <div className="flex items-center space-x-3">
           <a
-            href="#get-started"
+            href="#get_started"
             className="text-primary-foreground text-sm bg-primary font-mono font-semibold px-3 py-2 rounded-xl hover:text-on-surface"
           >
             Get Started{' '}
