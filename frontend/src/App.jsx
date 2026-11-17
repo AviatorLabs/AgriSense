@@ -10,7 +10,7 @@ function App() {
       {/* <LandingPage /> */}
       {/* <Login /> */}
       {/* <FarmerProfessionalRegister /> */}
-      {/* <FarmRegistration */>}
+      {/* <FarmRegistration /> */}
       <Dashboard />
     </>
   );
