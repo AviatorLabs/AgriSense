@@ -1,4 +1,5 @@
-import Login from './pages/login';
+import Dashboard from './pages/dashboard';
+//import Login from './pages/login';
 //import FarmerProfessionalRegister from './pages/farmerProfessionalRegister';
 //import LandingPage from './pages/landingPage';
 
@@ -7,7 +8,8 @@ function App() {
     <>
       {/* <LandingPage /> */}
       {/*( <FarmerProfessionalRegister /> */}
-      <Login />
+      {/* <Login /> */}
+      <Dashboard />
     </>
   );
 }
