@@ -1,4 +1,3 @@
-import React from 'react';
 import Logo from '../assets/AgriSensePrimaryLogo.png';
 import { RiDashboardHorizontalLine } from 'react-icons/ri';
 import {
