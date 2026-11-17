@@ -4,13 +4,12 @@ import FarmRegistration from './pages/farmRegistration/FarmRegistration';
 //import LandingPage from './pages/landingPage';
 
 function App() {
- 
   return (
     <>
       {/* <LandingPage /> */}
       {/*( <FarmerProfessionalRegister /> */}
-       <FarmRegistration />
-     {/* <Login /> */}
+      <FarmRegistration />
+      {/* <Login /> */}
     </>
   );
 }
