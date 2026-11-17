@@ -12,7 +12,7 @@ import { FaRegChartBar } from 'react-icons/fa6';
 import { FiSearch } from 'react-icons/fi';
 import { IoLocationOutline } from 'react-icons/io5';
 import { RiArrowDropDownLine } from 'react-icons/ri';
-import { AiOutlineSetting } from "react-icons/ai";
+import { AiOutlineSetting } from 'react-icons/ai';
 
 const NAV_ITEMS = [
   { title: 'Dashboard', path: '/dashboard', icon: RiDashboardHorizontalLine },
@@ -37,14 +37,18 @@ export default function Dashboard() {
               <NavItem key={item.path} {...item} />
             ))}
           </nav>
-          <div className='flex flex-col gap-y-2'>
-            <NavItem title={"Settings"} path={"/settings"} icon={AiOutlineSetting} />
-            <div className='flex flex-col gap-y-2 p-3 bg-muted rounded-xl'>
-                <p className='text-xs text-foreground font-mono font-semibold'>Need help in the field?</p>
-                <p className='text-xs text-muted-foreground font-mono'>Practical guidance for every growing decision.</p>
-                <button className="text-xs text-foreground font-mono font-semibold px-4 py-3 bg-card border border-border rounded-xl shadow-md">
-                    Open help center
-                </button>
+          <div className="flex flex-col gap-y-2">
+            <NavItem title={'Settings'} path={'/settings'} icon={AiOutlineSetting} />
+            <div className="flex flex-col gap-y-2 p-3 bg-muted rounded-xl">
+              <p className="text-xs text-foreground font-mono font-semibold">
+                Need help in the field?
+              </p>
+              <p className="text-xs text-muted-foreground font-mono">
+                Practical guidance for every growing decision.
+              </p>
+              <button className="text-xs text-foreground font-mono font-semibold px-4 py-3 bg-card border border-border rounded-xl shadow-md">
+                Open help center
+              </button>
             </div>
           </div>
         </div>
