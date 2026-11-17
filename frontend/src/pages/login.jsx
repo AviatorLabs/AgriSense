@@ -143,10 +143,10 @@ function Login() {
                 <div className="h-px bg-border rounded-full"></div>
               </div>
               <a
-                href="#" // Remember to put a valid login link herre
+                href="/farm-setup"
                 className="text-primary text-sm text-center font-bold font-mono px-4 py-3 bg-card border border-border rounded-xl"
               >
-                Create your account
+                Preview farm setup
               </a>
             </div>
             <p className="flex gap-2 p-3 bg-muted rounded-xl">
