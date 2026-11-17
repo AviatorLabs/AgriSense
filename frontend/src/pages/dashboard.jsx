@@ -12,6 +12,7 @@ import { FaRegChartBar } from 'react-icons/fa6';
 import { FiSearch } from 'react-icons/fi';
 import { IoLocationOutline } from 'react-icons/io5';
 import { RiArrowDropDownLine } from 'react-icons/ri';
+import { AiOutlineSetting } from "react-icons/ai";
 
 const NAV_ITEMS = [
   { title: 'Dashboard', path: '/dashboard', icon: RiDashboardHorizontalLine },
@@ -26,16 +27,26 @@ const NAV_ITEMS = [
 export default function Dashboard() {
   return (
     <div className="flex min-h-screen bg-gray-50">
-      <aside className="w-64 shrink-0 bg-card border-r-2 border-border p-4 hidden lg:block">
-        <div className="mb-5">
+      <aside className="w-64 shrink-0 bg-card border-r-2 border-border p-4 hidden h-screen sticky top-0 flex-col lg:flex ">
+        <div className="mb-5 shrink-0">
           <img src={Logo} alt="AgriSense primary logo" className="w-40 h-15 object-cover" />
         </div>
-        <div className="flex flex-col justify-between">
+        <div className="flex-1 flex flex-col justify-between">
           <nav className="flex flex-col">
             {NAV_ITEMS.map((item) => (
               <NavItem key={item.path} {...item} />
             ))}
           </nav>
+          <div className='flex flex-col gap-y-2'>
+            <NavItem title={"Settings"} path={"/settings"} icon={AiOutlineSetting} />
+            <div className='flex flex-col gap-y-2 p-3 bg-muted rounded-xl'>
+                <p className='text-xs text-foreground font-mono font-semibold'>Need help in the field?</p>
+                <p className='text-xs text-muted-foreground font-mono'>Practical guidance for every growing decision.</p>
+                <button className="text-xs text-foreground font-mono font-semibold px-4 py-3 bg-card border border-border rounded-xl shadow-md">
+                    Open help center
+                </button>
+            </div>
+          </div>
         </div>
       </aside>
 
