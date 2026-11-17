@@ -1,15 +1,17 @@
-//import Login from './pages/login';
-import FarmRegistration from './pages/farmRegistration/FarmRegistration';
-//import FarmerProfessionalRegister from './pages/farmerProfessionalRegister';
 //import LandingPage from './pages/landingPage';
+//import Login from './pages/login';
+//import FarmerProfessionalRegister from './pages/farmerProfessionalRegister';
+//import FarmRegistration from './pages/farmRegistration/FarmRegistration';
+import Dashboard from './pages/dashboard';
 
 function App() {
   return (
     <>
       {/* <LandingPage /> */}
-      {/*( <FarmerProfessionalRegister /> */}
-      <FarmRegistration />
       {/* <Login /> */}
+      {/* <FarmerProfessionalRegister /> */}
+      {/* <FarmRegistration /> */}
+      <Dashboard />
     </>
   );
 }
