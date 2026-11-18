@@ -111,7 +111,7 @@ function FieldActivity({ title, plot, platedDate, stage, estHarvest, daysLeft, c
 }
 
 function Notification({ type, title, text }) {
-  let bgColor = 'mkt';
+  let bgColor;
 
   if (type == 'env') {
     bgColor = 'bg-accent';
