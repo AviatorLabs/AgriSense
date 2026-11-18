@@ -29,21 +29,21 @@ const NAV_ITEMS = [
 ];
 
 export default function Dashboard() {
-  const [toggelSideBar, setToggelSideBar] = useState(false);
-  const [toggelMenu, setToggelMenu] = useState(false);
+  const [toggleSideBar, setToggleSideBar] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <div className="relative flex min-h-screen bg-gray-50">
-      {toggelSideBar && (
+      {toggleSideBar && (
         <div
-          onClick={() => setToggelSideBar(false)}
+          onClick={() => setToggleSideBar(false)}
           className="fixed inset-0 bg-black/50 z-45 lg:hidden transition-opacity"
         />
       )}
 
-      {toggelMenu && (
+      {toggleMenu && (
         <div
-          onClick={() => setToggelMenu(false)}
+          onClick={() => setToggleMenu(false)}
           className="fixed inset-0 bg-black/50 z-40 md:hidden transition-opacity"
         />
       )}
@@ -53,7 +53,7 @@ export default function Dashboard() {
           w-64 shrink-0 bg-card border-r-2 border-border p-4 h-screen flex flex-col z-50
           fixed inset-y-0 left-0 transition-transform duration-300 ease-in-out
           lg:sticky lg:top-0 lg:translate-x-0
-          ${toggelSideBar ? 'translate-x-0' : '-translate-x-full'}
+          ${toggleSideBar ? 'translate-x-0' : '-translate-x-full'}
         `}
       >
         <div className="mb-5 shrink-0">
@@ -85,7 +85,7 @@ export default function Dashboard() {
       <main className="flex-1 bg-background overflow-y-auto no-scrollbar">
         <header className="flex items-center justify-between px-6 py-3 bg-card border-b-2 border-border">
           <button
-            onClick={() => setToggelSideBar(!toggelSideBar)}
+            onClick={() => setToggleSideBar(!toggleSideBar)}
             className="p-1 rounded-lg hover:bg-muted lg:hidden transition-colors"
             aria-label="Toggle Sidebar"
           >
@@ -102,7 +102,7 @@ export default function Dashboard() {
             />
           </div>
           <button
-            onClick={() => setToggelMenu(!toggelMenu)}
+            onClick={() => setToggleMenu(!toggleMenu)}
             className="p-1 rounded-lg hover:bg-muted md:hidden transition-colors"
             aria-label="Toggle Menu"
           >
@@ -112,13 +112,13 @@ export default function Dashboard() {
             className={`
           w-64 flex flex-col gap-y-3 p-4 bg-card border-l border-border z-50
           fixed inset-y-0 right-0 transition-transform duration-300 ease-in-out md:hidden
-          ${toggelMenu ? 'translate-x-0' : 'translate-x-full'}
+          ${toggleMenu ? 'translate-x-0' : 'translate-x-full'}
         `}
           >
             <div className="flex items-center justify-between mb-2">
               <span className="text-xs font-mono font-semibold text-muted-foreground">MENU</span>
               <button
-                onClick={() => setToggelMenu(false)}
+                onClick={() => setToggleMenu(false)}
                 className="p-1 rounded-lg hover:bg-muted"
                 aria-label="Close Menu"
               >
