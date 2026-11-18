@@ -4,7 +4,7 @@ const activities = [
   {
     title: 'Teff',
     plot: 'East Plot',
-    platedDate: '22 May',
+    plantedDate: '22 May',
     stage: 'Tillering stage',
     estHarvest: '18 September',
     daysLeft: 58,
@@ -13,7 +13,7 @@ const activities = [
   {
     title: 'Maize',
     plot: 'Home Field',
-    platedDate: '10 May',
+    plantedDate: '10 May',
     stage: 'Leaf development',
     estHarvest: '2 October',
     daysLeft: 73,
@@ -85,7 +85,7 @@ function FieldActivity({ title, plot, platedDate, stage, estHarvest, daysLeft, c
           {title} · {plot}
         </p>
         <p className="text-muted-foreground text-xs font-mono">
-          Planted {platedDate} · {stage}
+          Planted {plantedDate} · {stage}
         </p>
       </div>
       <div className="flex flex-col gap-y-2">
@@ -95,7 +95,7 @@ function FieldActivity({ title, plot, platedDate, stage, estHarvest, daysLeft, c
       <div className="flex flex-col gap-y-2">
         <div className="flex items-center justify-between">
           <span className="text-primary text-xs font-mono font-semibold">
-            {completion} complete
+            {percentage}% complete
           </span>
           <span className="text-muted-foreground text-xs font-mono">{daysLeft} days</span>
         </div>
