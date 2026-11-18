@@ -1,4 +1,3 @@
-import React from 'react';
 import WelcomHeroSection from './welcomeComponents/welcomHeroSection';
 import FieldPriorities from './welcomeComponents/fieldPriorities';
 import CropFit from './welcomeComponents/cropFit';
