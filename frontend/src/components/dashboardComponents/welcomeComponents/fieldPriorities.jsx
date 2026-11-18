@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaRegChartBar } from "react-icons/fa6";
+import { FaRegChartBar } from 'react-icons/fa6';
 import { PiPlus, PiPlant, PiCalendarBlankLight } from 'react-icons/pi';
 
 const progress_type = [
@@ -21,7 +20,7 @@ export default function FieldPriorities() {
           View all actions
         </button>
       </div>
-      <div className="grid grid-cols-4 gap-3">
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-3">
         {progress_type.map((item) => (
           <ProgressBtn key={item.title} {...item} />
         ))}

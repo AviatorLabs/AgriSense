@@ -4,7 +4,7 @@ import { TbWaveSawTool } from 'react-icons/tb';
 export default function WelcomHeroSection() {
   return (
     <>
-      <div className="flex items-end justify-between p-10 pb-0">
+      <div className="flex flex-col gap-y-3 p-10 pb-0 md:flex-row md:items-end md:justify-between">
         <div className="flex flex-col gap-3">
           <p className="text-primary text-sm font-mono font-semibold">
             Tuesday, 16 June 2026 · Arsi, Oromia
@@ -23,9 +23,9 @@ export default function WelcomHeroSection() {
           </button>
         </div>
       </div>
-      <section className="flex gap-x-4 p-10 pb-0">
-        <div className="flex flex-col gap-y-3 p-6 bg-primary rounded-xl">
-          <div className="flex-2 flex">
+      <section className="flex flex-col gap-y-4 p-10 pb-0 xl:gap-x-4 xl:flex-row">
+        <div className="flex-2 flex flex-col gap-y-3 p-6 bg-primary rounded-xl">
+          <div className="flex">
             <div className="flex-1 flex flex-col gap-y-3">
               <div className="flex items-center gap-x-2">
                 <span className="px-3 py-2 text-foreground text-xs font-mono font-bold bg-accent rounded-xl">
@@ -46,10 +46,10 @@ export default function WelcomHeroSection() {
             </span>
           </div>
           <div className="flex items-center gap-x-3">
-            <button className="text-primary text-sm font-mono font-semibold px-4 py-3 bg-primary-foreground rounded-xl">
+            <button className="text-primary text-xs font-mono font-semibold px-2 py-1 bg-primary-foreground rounded-xl md:text-sm md:px-4 md:py-3">
               Plan field work
             </button>
-            <button className="text-primary-foreground text-sm font-mono font-semibold px-4 py-3 bg-primary border border-primary-foreground rounded-xl">
+            <button className="text-primary-foreground text-xs font-mono font-semibold px-2 py-1 bg-primary border border-primary-foreground rounded-xl md:text-sm md:px-4 md:py-3">
               See environmental detail
             </button>
           </div>

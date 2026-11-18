@@ -41,7 +41,7 @@ const notifications = [
 
 export default function ProgressNotification() {
   return (
-    <section className="flex gap-x-4 p-10">
+    <section className="flex flex-col gap-y-4 p-10 lg:flex-row lg:gap-x-4">
       <div className="flex-2 flex flex-col gap-y-2 p-4 bg-card border border-border rounded-xl shadow-md">
         <div className="flex items-center justify-between">
           <div className="flex flex-col gap-y-3">

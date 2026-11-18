@@ -1,4 +1,3 @@
-import React from 'react';
 import { LiaArrowRightSolid } from 'react-icons/lia';
 import Teff from '../../../assets/agri-teff.png';
 import Maize from '../../../assets/agri-maize.png';
@@ -31,7 +30,7 @@ const crops = [
 export default function CropFit() {
   return (
     <section className="flex flex-col gap-y-4 p-10 pb-0">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col gap-y-4 md:flex-row md:items-center md:justify-between">
         <div className="flex flex-col gap-y-3">
           <p className="text-primary text-sm font-mono font-semibold">CROP FIT</p>
           <h2 className="text-foreground text-xl font-sans font-bold">
@@ -41,11 +40,11 @@ export default function CropFit() {
             Suitability scores are sample model outputs until verified soil results are added.
           </p>
         </div>
-        <button className="text-sm text-muted-foreground font-mono font-semibold hover:cursor-pointer">
+        <button className="text-sm text-muted-foreground text-start font-mono font-semibold hover:cursor-pointer">
           Explore recommendations
         </button>
       </div>
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6">
         {crops.map((item) => (
           <CropArticle key={item.name} {...item} />
         ))}
