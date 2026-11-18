@@ -111,19 +111,19 @@ function FieldActivity({ title, plot, platedDate, stage, estHarvest, daysLeft, c
 }
 
 function Notification({ type, title, text }) {
-  let bg_color = 'mkt';
+  let bgColor = 'mkt';
 
   if (type == 'env') {
-    bg_color = 'bg-accent';
+    bgColor = 'bg-accent';
   } else if (type == 'fud') {
-    bg_color = 'bg-primary-accent';
+    bgColor = 'bg-primary-accent';
   } else {
-    bg_color = 'bg-primary';
+    bgColor = 'bg-primary';
   }
 
   return (
     <div className="flex gap-x-2">
-      <div className={`w-3 h-3 rounded-full ${bg_color}`}></div>
+      <div className={`w-3 h-3 rounded-full ${bgColor}`}></div>
       <div className="flex flex-col gap-y-1">
         <p className="text-sm text-foreground font-mono font-semibold">{title}</p>
         <p className="text-xs text-muted-foreground font-mono">{text}</p>
