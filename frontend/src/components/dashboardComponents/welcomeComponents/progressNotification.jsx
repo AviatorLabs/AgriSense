@@ -76,7 +76,7 @@ export default function ProgressNotification() {
   );
 }
 
-function FieldActivity({ title, plot, platedDate, stage, estHarvest, daysLeft, completion }) {
+function FieldActivity({ title, plot, plantedDate, stage, estHarvest, daysLeft, completion }) {
   const percentage = Math.round(completion * 100);
   return (
     <div className="grid grid-cols-3 gap-2">
