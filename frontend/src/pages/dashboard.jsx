@@ -1,26 +1,27 @@
 import Logo from '../assets/AgriSensePrimaryLogo.png';
 import { RiDashboardHorizontalLine } from 'react-icons/ri';
 import {
-  PiPlantBold,
+  PiPlant,
   PiStackBold,
   PiCalendarBlankBold,
   PiCreditCard,
   PiBellSimple,
 } from 'react-icons/pi';
 import { TbWaveSawTool } from 'react-icons/tb';
-import { FaRegChartBar } from 'react-icons/fa6';
+import { LuChartBar } from "react-icons/lu";
 import { FiSearch } from 'react-icons/fi';
 import { IoLocationOutline } from 'react-icons/io5';
 import { RiArrowDropDownLine } from 'react-icons/ri';
 import { AiOutlineSetting } from 'react-icons/ai';
+import WelcomeSection from '../components/dashboardComponents/welcomeSection';
 
 const NAV_ITEMS = [
   { title: 'Dashboard', path: '/dashboard', icon: RiDashboardHorizontalLine },
   { title: 'My Farm', path: '/dashboard/MyFarm', icon: PiStackBold },
-  { title: 'Crop Recommendations', path: '/dashboard/CropRecommendations', icon: PiPlantBold },
+  { title: 'Crop Recommendations', path: '/dashboard/CropRecommendations', icon: PiPlant },
   { title: 'Crop Planning', path: '/dashboard/CropPlanning', icon: PiCalendarBlankBold },
   { title: 'Crop Monitoring', path: '/dashboard/CropMonitoring', icon: TbWaveSawTool },
-  { title: 'Market Intelligence', path: '/dashboard/MarketIntelligence', icon: FaRegChartBar },
+  { title: 'Market Intelligence', path: '/dashboard/MarketIntelligence', icon: LuChartBar },
   { title: 'Expenses & Profit', path: '/dashboard/ExpensesProfit', icon: PiCreditCard },
 ];
 
@@ -85,7 +86,7 @@ export default function Dashboard() {
             />
           </div>
         </header>
-        {/* Call your components here*/}
+        <WelcomeSection />
       </main>
     </div>
   );
