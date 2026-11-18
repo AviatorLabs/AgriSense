@@ -1,6 +1,6 @@
 import { PiBellSimple } from 'react-icons/pi';
 
-const activitys = [
+const activities = [
   {
     title: 'Teff',
     plot: 'East Plot',
@@ -8,7 +8,7 @@ const activitys = [
     stage: 'Tillering stage',
     estHarvest: '18 September',
     daysLeft: 58,
-    complition: 0.4,
+    completion: 0.4,
   },
   {
     title: 'Maize',
@@ -17,7 +17,7 @@ const activitys = [
     stage: 'Leaf development',
     estHarvest: '2 October',
     daysLeft: 73,
-    complition: 0.31,
+    completion: 0.31,
   },
 ];
 
@@ -53,7 +53,7 @@ export default function ProgressNotification() {
           </button>
         </div>
         <div className="flex flex-col gap-4 mt-4">
-          {activitys.map((item) => (
+          {activities.map((item) => (
             <FieldActivity key={item.title} {...item} />
           ))}
         </div>
@@ -76,8 +76,8 @@ export default function ProgressNotification() {
   );
 }
 
-function FieldActivity({ title, plot, platedDate, stage, estHarvest, daysLeft, complition }) {
-  const percentage = Math.round(complition * 100);
+function FieldActivity({ title, plot, platedDate, stage, estHarvest, daysLeft, completion }) {
+  const percentage = Math.round(completion * 100);
   return (
     <div className="grid grid-cols-3 gap-2">
       <div className="flex flex-col gap-y-2">
@@ -95,7 +95,7 @@ function FieldActivity({ title, plot, platedDate, stage, estHarvest, daysLeft, c
       <div className="flex flex-col gap-y-2">
         <div className="flex items-center justify-between">
           <span className="text-primary text-xs font-mono font-semibold">
-            {complition} complete
+            {completion} complete
           </span>
           <span className="text-muted-foreground text-xs font-mono">{daysLeft} days</span>
         </div>
