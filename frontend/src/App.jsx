@@ -1,8 +1,8 @@
 //import LandingPage from './pages/landingPage';
 //import Login from './pages/login';
 //import FarmerProfessionalRegister from './pages/farmerProfessionalRegister';
-//import FarmRegistration from './pages/farmRegistration/FarmRegistration';
-import Dashboard from './pages/dashboard';
+import FarmRegistration from './pages/FarmRegistration';
+//import Dashboard from './pages/dashboard';
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       {/* <LandingPage /> */}
       {/* <Login /> */}
       {/* <FarmerProfessionalRegister /> */}
-      {/* <FarmRegistration /> */}
-      <Dashboard />
+      <FarmRegistration />
+      {/* <Dashboard /> */}
     </>
   );
 }
