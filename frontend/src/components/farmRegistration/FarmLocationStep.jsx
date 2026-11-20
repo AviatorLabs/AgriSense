@@ -31,11 +31,7 @@ function FarmLocationStep() {
               <label className={labelClass} htmlFor="region">
                 Region <span aria-hidden="true">*</span>
               </label>
-              <input
-                id="region"
-                className={inputClass}
-                placeholder="e.g. Oromia"
-              />
+              <input id="region" className={inputClass} placeholder="e.g. Oromia" />
             </div>
             <div>
               <label className={labelClass} htmlFor="zone">
