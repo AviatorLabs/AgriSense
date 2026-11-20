@@ -81,7 +81,10 @@ function FarmInformationStep() {
               </p>
             </fieldset>
             <div className="container flex justify-end mt-10">
-              <button type='button' className="flex items-center gap-2 bg-primary px-4 py-3 text-primary-foreground text-sm font-mono font-bold rounded-xl">
+              <button
+                type="button"
+                className="flex items-center gap-2 bg-primary px-4 py-3 text-primary-foreground text-sm font-mono font-bold rounded-xl"
+              >
                 Continue
                 <LuArrowRight className="w-5 h-5 stroke-primary-foreground" />
               </button>

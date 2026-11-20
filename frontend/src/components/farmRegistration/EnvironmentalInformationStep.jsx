@@ -42,12 +42,18 @@ function EnvironmentalInformationStep() {
             </button>
           </div>
           <div className="container flex items-center justify-between mt-10">
-            <button type='button' className="flex items-center gap-2 bg-card px-4 py-3 text-foreground text-sm font-mono font-bold">
+            <button
+              type="button"
+              className="flex items-center gap-2 bg-card px-4 py-3 text-foreground text-sm font-mono font-bold"
+            >
               <LuArrowLeft className="w-5 h-5 stroke-foreground" />
               Back
             </button>
-            <button type='button' className="flex items-center gap-2 bg-primary px-4 py-3 text-primary-foreground text-sm font-mono font-bold rounded-xl">
-              Review details 
+            <button
+              type="button"
+              className="flex items-center gap-2 bg-primary px-4 py-3 text-primary-foreground text-sm font-mono font-bold rounded-xl"
+            >
+              Review details
               <LuArrowRight className="w-5 h-5 stroke-primary-foreground" />
             </button>
           </div>
