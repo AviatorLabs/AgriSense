@@ -2,7 +2,8 @@
 //import Login from './pages/login';
 //import FarmerProfessionalRegister from './pages/farmerProfessionalRegister';
 //import FarmRegistration from './pages/farmRegistration/FarmRegistration';
-import Dashboard from './pages/dashboard';
+// import Dashboard from './pages/dashboard';
+import MyFarm from './pages/myfarm.jsx';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Login /> */}
       {/* <FarmerProfessionalRegister /> */}
       {/* <FarmRegistration /> */}
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <MyFarm />
     </>
   );
 }
