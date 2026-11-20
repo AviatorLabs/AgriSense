@@ -24,7 +24,6 @@ function FarmLocationStep() {
                 id="country"
                 className={inputClass}
                 value={'Ethiopia'}
-                onChange={(event) => onChange('country', event.target.value)}
                 autoComplete="country-name"
               />
             </div>
@@ -35,7 +34,6 @@ function FarmLocationStep() {
               <input
                 id="region"
                 className={inputClass}
-                onChange={(event) => onChange('region', event.target.value)}
                 placeholder="e.g. Oromia"
               />
             </div>
