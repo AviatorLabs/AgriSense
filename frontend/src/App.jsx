@@ -12,7 +12,7 @@ function App() {
       {/* <Login /> */}
       {/* <FarmerProfessionalRegister /> */}
       {/* <FarmRegistration /> */}
-       {/* <Dashboard /> */} 
+      {/* <Dashboard /> */}
       <MyFarm />
     </>
   );
